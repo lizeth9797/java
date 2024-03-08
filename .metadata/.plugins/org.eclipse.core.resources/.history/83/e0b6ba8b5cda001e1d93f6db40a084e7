@@ -1,0 +1,14 @@
+import java.util.Random;
+
+public class CicloThread extends Thread{
+	private int max;
+	private Random random;
+	
+	public CicloThread(int max,String name) {
+		this.max=max;
+		this.setName(name);
+		random=new Random();
+
+	}
+	
+}

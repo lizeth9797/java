@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Primos {
+//https://www.hackerrank.com/challenges/prime-checker/problem?isFullScreen=true
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT.  */
+    	
+    	  BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+    	  checkPrime();
+    }
+    
+    public static void checkPrime() {
+    	
+    }
+    	
+    
+}

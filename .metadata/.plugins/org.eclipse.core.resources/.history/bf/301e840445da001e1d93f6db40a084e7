@@ -1,0 +1,19 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static void imprimirCalculo(Triangulo t) {
+		System.out.println(t);
+		System.out.println("------------------");
+		System.out.println("El área de ["+t.getNombre()+
+				"] es: "+t.calcularArea());
+		System.out.println("El perímetro de ["+t.getNombre()+
+				"] es: "+t.calcularPerimetro());		System.out.println("------------------");
+
+	}//imprimirCalculo
+
+}

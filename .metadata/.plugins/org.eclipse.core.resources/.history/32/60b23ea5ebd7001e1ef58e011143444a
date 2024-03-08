@@ -1,0 +1,11 @@
+package org.generation.classes;
+
+public class Employee extends Person {
+	//como employee hereda de person ya tiene constructor (3 exactamente) porque Person ya tiene 3 constructores definidos
+	
+	//agregaremos 2 propiedades extra
+	private String department;//principio de la encapsulación (private)
+	private double salary;
+	
+
+}

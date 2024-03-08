@@ -1,0 +1,17 @@
+
+public class Productor extends Thread{
+
+	public Productor(String name) {
+		this.setName(name);
+	}//constructor
+	
+	@Override
+	public void run() {
+		System.out.println("INICIO del Productor "+getName());
+		Integer num=Integer.valueOf((int)(Math.random()*500));
+		Almacen.lista.add(num);
+		System.out.println(" Productor "+this.getName()+" num: "+num+" size: "+Almacen.lista.size());
+		
+		System.out.println(" ******* FIN del Productor "+getName());
+	}
+}

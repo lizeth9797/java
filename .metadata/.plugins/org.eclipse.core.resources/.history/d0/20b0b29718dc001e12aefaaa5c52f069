@@ -1,0 +1,43 @@
+import java.util.*;
+import java.io.*;
+
+class Solution{
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        System.out.print("Q:");
+        int t=in.nextInt();
+        
+        for(int i=0;i<t;i++){
+            System.out.print("a:");//2
+            int a = in.nextInt();
+            System.out.print("b:");//1
+            int b = in.nextInt();
+            System.out.print("n:");//
+            int n = in.nextInt();// 3
+            
+            //for con la formula
+            //int cont=0;
+            int resultado=0;
+            int potencias=0;
+            for(int j=0;j<n;j++) { 
+            	System.out.println("primer for");
+            	for(int x=0;x<=j;x++) { 
+                	System.out.println("segundo for");
+
+                	for (int z=0; z<n ; z++) {
+               		     System.out.println("tercer for Z: "+z);
+                         potencias=0;
+                		 potencias=(int) ((Math.pow(2, j))*b); 
+                		 resultado+=potencias;
+                		 //System.out.println("potencia: "+ potencias);
+               		     System.out.println("antes de salir Z: "+z);
+
+                		 }
+                	resultado+=a; 
+                	//System.out.println("r en el 2do for:"+resultado);
+            	}
+            }
+        }
+        in.close();
+    }   
+}

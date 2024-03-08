@@ -1,0 +1,18 @@
+
+public class Consumidor implements Runnable{
+	private String name;
+	public Consumidor(String name) {
+		this.name=name;
+	}//constructor
+	
+	
+	public String getName() {
+		return name;
+	}
+
+	@Override
+	public void run() {
+
+		
+	}
+}

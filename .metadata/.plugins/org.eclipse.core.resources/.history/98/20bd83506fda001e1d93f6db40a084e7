@@ -1,0 +1,7 @@
+
+public class Productor extends Thread{
+
+	public Productor(String name) {
+		this.setName(name);
+	}//constructor
+}
