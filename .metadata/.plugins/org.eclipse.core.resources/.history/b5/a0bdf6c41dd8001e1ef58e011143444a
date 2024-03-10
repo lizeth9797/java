@@ -1,7 +1,0 @@
-package org.generation.classes;
-
-public interface Pagable {
-	public String getName();
-	public String getRFC();
-
-}

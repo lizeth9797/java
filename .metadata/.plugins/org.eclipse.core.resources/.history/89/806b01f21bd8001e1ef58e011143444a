@@ -1,9 +1,0 @@
-package org.generation.classes;
-
-public class Consultant {
-	private String razonSocial;
-	private String RFC;
-	private String costoHora;
-
-
-}
