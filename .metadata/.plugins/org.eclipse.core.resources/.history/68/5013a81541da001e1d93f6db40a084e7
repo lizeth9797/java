@@ -1,9 +1,0 @@
-package org.generation.classes;
-
-public interface Pagable { //esta interfaz es una serie de requisitos
-	public String getName();
-	public String getRFC();
-	public String getDepartment();
-	public String calculateSalary(int days);
-	public int getId();
-}
